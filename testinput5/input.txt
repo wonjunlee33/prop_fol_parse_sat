@@ -1,0 +1,4 @@
+SAT
+(AxEyP(x,y)/\EzQ(z,z))
+(AxAyEz(P(x,z)/\P(z,y))/\ExP(x,x))
+(ExEyP(x,y)/\AyEzP(y,z))

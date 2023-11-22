@@ -1,0 +1,8 @@
+~(p=>p) is not satisfiable.
+(~p=>p) is satisfiable.
+~~((p\/q)/\((p=>~p)/\(~p=>p))) is not satisfiable.
+~(p=>(q=>p)) is not satisfiable.
+(~(p=>q)/\q) is not satisfiable.
+(p\/r) is satisfiable.
+~((p=>p)=>(q=>q)) is not satisfiable.
+(q/\~(q/\(p/\q))) is satisfiable.

@@ -595,7 +595,6 @@ def sat(tableau):
     # output 0 if not satisfiable, output 1 if satisfiable, output 2 if the number of constants exceeds MAX_CONSTANTS
     out = is_satisfiable(tableau[0])
     return out
-
 ############################################################################################################
 
 #DO NOT MODIFY THE CODE BELOW

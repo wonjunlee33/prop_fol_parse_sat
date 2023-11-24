@@ -61,7 +61,7 @@ def lexer(formula):
             tokens.append(('FOL_VAR', formula[i]))
             i += 1
         else:
-            # Skip whitespaces
+            # skip whitespaces
             if formula[i] != ' ':
                 # print(f"Unknown token: {formula[i]}")
                 i += 1
@@ -133,7 +133,7 @@ def parse_formula(tokens):
         # print(f"Unexpected token: {token}")
         return None
 
-# Parse a formula, consult parseOutputs for return values.
+# output parse_formula in format wanted by assignment
 def parse(fmla):
     tokens = lexer(fmla)
     parsed = parse_formula(tokens)
